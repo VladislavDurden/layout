@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/extra_small.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&onload=jQuery.fn.lpMapInit" type="text/javascript" async></script>
+    <title>WEBcat</title>
+</head>
+
+<body>
+
+    <section id="services">
+
+        <div class="header">
+            <div class="container">
+                <div class="header-left">
+                    <div class="one-line">NAME</div>
+                    <div class="two-lines">комплексное развитие объектов недвижимости</div>
+                </div>
+                <div class="header-right">
+                    <div class="up">+7123456-78-90</div>
+                    <div class="down">emailadress@mail.ru</div>
+                </div>
+            </div>
+        </div>
+        <div class="container services-container">
+            <div class="middle-services">
+                <div class="decor-big"></div>
+                <h1>СТРОИТЕЛЬНЫЕ И РЕМОНТНЫЕ РАБОТЫ В МОСКВЕ И МО</h1>
+            </div>
+
+            <div class="services-fiches">
+                <span>гарантируем сроки и качество</span>
+                <span>опыт 10 лет</span>
+                <span>официально</span>
+            </div>
+
+            <p><button id="popup-button" onclick="showA();">ПОЛУЧИТЬ РАСЧЕТ СТОИМОСТИ</button></p>
+
+            <div id="main">
+                <div id="windows">
+                    <div id="modalForm">
+                        <h3>Заполните контактные данные:</h3>
+                        <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." />
+                        <input id="phone" type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required />
+                        <input type="email" name="email" maxlength="50" data-wi-fb-caption="Почта" placeholder="Ваш E-mail..." />
+                        <textarea name="message" maxlength="500" data-wi-fb-caption="Сообщение" placeholder="При желании оставьте сообщение..." required></textarea>
+                        <button>Оставить заказ</button>
+                        <button onclick="hideA();">ЗАКРЫТЬ</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="upper-wrapper">
+                <div class="service-items-wrapper">
+                    <div class="service-items">
+                        <div class="icon">
+                            <img src="img/skyscraper.png" alt="">
+                            <p>Административные помещения</p>
+                        </div>
+
+                    </div>
+                    <div class="inside"></div>
+                </div>
+                <div class="service-items-wrapper">
+                    <div class="service-items">
+                        <div class="icon">
+                            <img src="img/factory.png" alt="">
+                            <p>Производственные помещения</p>
+                        </div>
+
+                    </div>
+                    <div class="inside"></div>
+                </div>
+                <div class="service-items-wrapper">
+                    <div class="service-items">
+                        <div class="icon">
+                            <img src="img/house.png" alt="">
+                            <p>Коттеджи, дома, квартиры</p>
+                        </div>
+                    </div>
+                    <div class="inside"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="slider">
+        <div class="container">
+
+            <div class="middle-slider">
+                <div class="decor"></div>
+                <h1>РЕАЛИЗОВАННЫЕ ПРОЕКТЫ</h1>
+            </div>
+
+            <div class="content-slider">
+                <ul class="rslides">
+                    <li><img src="img/img.jpg" alt=""></li>
+                    <li><img src="img/img.jpg" alt=""></li>
+                    <li><img src="img/img.jpg" alt=""></li>
+                </ul>
+                <div class="nav">
+                    <ul class="rslides_tabs rslides1_tabs custom">
+                        <li class="rslides1_s1 rslides_here"><a href="#" class="rslides1_s1"><i class="fas fa-square"></i></a></li>
+                        <li class="rslides1_s2"><a href="#" class="rslides1_s2"><i class="fas fa-square"></i></a></li>
+                        <li class="rslides1_s3"><a href="#" class="rslides1_s3"><i class="fas fa-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="container">
+
+            <h1>ЗАПОЛНИТЕ ФОРМУ И ПОЛУЧИТЕ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ НАШЕГО СПЕЦИАЛИСТА!</h1>
+
+            <div id="form-field">
+                <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." />
+                <input id="phone2" type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required />
+                <button>ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="items">
+        <div class="container">
+            <img id="shampoo" src="img/shampoo.png" alt="">
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="map-upper">
+            <h1>ООО "NAME"</h1>
+            <p>г. Москва, Новая Басманная 12, строение 2, офис 316</p>
+            <p>+7123 <strong>456-78-90</strong></p>
+            <p>+7123 <strong>456-78-90</strong></p>
+            <p>email@mail.ru</p>
+        </div>
+        <div id="lp-map"></div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="footer-left">
+                <h5>ИНН 7718169817</h5>
+            </div>
+            <div class="footer-right">
+                <h5>Разработано webcat.by</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/responsiveslides.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

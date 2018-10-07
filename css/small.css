@@ -1,0 +1,130 @@
+@media screen and (max-width: 780px) {
+
+    #services,
+    #slider {
+        min-height: 130vh;
+        height: auto;
+    }
+
+    .middle-services > h1 {
+        font-size: 20px;
+        width: 60%;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    .decor-big {
+        width: 80px;
+        height: 96px;
+        margin-left: 26%;
+    }
+
+    .services-fiches {
+        margin-top: 20%;
+        margin-bottom: 50px;
+
+    }
+
+    #popup-button {
+        margin-left: 40px;
+        height: 60px;
+        width: 320px;
+        font-weight: bold;
+        box-shadow: 0 0 10px rgb(255, 221, 0);
+    }
+
+    .service-items-wrapper {
+        margin-right: 220px;
+        margin-top: 70px;
+
+    }
+
+    .icon img {
+        width: 60%;
+    }
+
+    .icon p {
+        margin-top: 0px;
+        margin-left: 20px;
+        width: 120px;
+        font-size: 15px;
+    }
+
+    .service-items {
+        width: 80px;
+        height: 96px;
+
+    }
+
+    .inside {
+        width: 80px;
+        height: 96px;
+        ;
+        top: 8px;
+        left: -8px;
+
+    }
+
+
+    /*                                                        СЛАЙДЕР*/
+    .middle-slider {
+        margin-top: 20px;
+    }
+
+    .decor {
+        width: 80px;
+        height: 96px;
+        margin-top: 10px;
+        left: 22%;
+    }
+
+    .middle-slider > h1 {
+        font-size: 25px;
+    }
+
+    .content-slider {
+        margin: 60px auto;
+    }
+
+    .rslides {
+        left: 16%;
+        height: 350px;
+    }
+
+
+    .rslides img {
+        max-height: 350px;
+        border: 0;
+    }
+
+    .prev {
+        top: 25vh;
+        left: 0;
+    }
+    .next {
+        top: 25vh;
+        right: 0;
+    }
+
+    .nav {
+        left: 66%;
+        top: 75vh;
+    }
+
+    /*                                                                  FORM */
+    #form {
+        padding-top: 40px;
+    }
+
+    #form h1 {
+        width: 50%;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+    
+    #map{
+        max-height: 70vh;
+    }
+
+
+}

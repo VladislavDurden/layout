@@ -1,0 +1,241 @@
+@media screen and (max-width: 480px) {
+    
+
+    .header-left {
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 40%;
+    }
+
+    .one-line {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .two-lines {
+        margin-top: -5px;
+        margin-left: 20px;
+        font-size: 12px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .header-right {
+        margin: 0;
+        width: 40%;
+    }
+
+    .up {
+        font-size: 13px;
+    }
+    
+    #services{
+        min-height: 70vh;
+        height: 70vh;
+    }
+
+
+    .middle-services > h1 {
+        font-size: 15px;
+        width: 50%;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        top: 100px;
+        left: 27%;
+    }
+
+    .decor-big {
+        width: 60px;
+        height: 74px;
+        margin-left: 27%;
+    }
+
+    .services-fiches {
+        margin-top: 25%;
+        margin-bottom: 30px;
+        font-size: 12px;
+
+    }
+
+    .services-fiches > span {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    #popup-button {
+        margin-left: -10px;
+        height: 50px;
+        width: 180px;
+        font-size: 12px;
+        box-shadow: 0 0 5px rgb(255, 221, 0);
+    }
+
+    .service-items-wrapper {
+        margin-right: 140px;
+        margin-top: 20px;
+
+    }
+
+    .service-items-wrapper:last-child {
+        margin-right: 0px;
+    }
+    
+    .service-items-wrapper:first-child{
+        margin-left: -80px;
+    }
+
+
+    .icon p {
+        margin-left: 10px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .service-items {
+        width: 60px;
+        height: 74px;
+
+    }
+
+    .inside {
+        width: 60px;
+        height: 74px;
+        top: 10px;
+        left: -10px;
+
+    }
+
+
+    /*                                                        СЛАЙДЕР*/
+    .middle-slider {
+        margin-top: 20px;
+    }
+
+    .decor {
+        width: 60px;
+        height: 72px;
+        margin-top: 10px;
+        left: 22%;
+    }
+
+    .middle-slider > h1 {
+        font-size: 20px;
+        width: 60%;
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .content-slider {
+        margin: 10px auto 20px auto;
+    }
+
+    #slider {
+        min-height: 70vh;
+    }
+
+    .rslides {
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        left: 13%;
+        height: 230px;
+    }
+
+    .rslides li {
+        width: 100%;
+        left: 0;
+        top: 0;
+
+    }
+
+    .rslides img {
+        max-height: 230px;
+        border: 0;
+    }
+
+    .rslides_tabs {
+        padding: 0;
+        margin-right: -130px;
+    }
+
+    .rslides_tabs li {
+        margin-right: 30px;
+    }
+
+    .prev {
+        top: 15vh;
+        left: 0;
+    }
+    .next {
+        top: 15vh;
+        right: 0;
+    }
+
+    .nav {
+        left: 59%;
+        top: 40vh;
+    }
+
+    /*                                                                  FORM */
+    #form {
+        padding-top: 70px;
+    }
+
+    #form h1 {
+        width: 70%;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    #form-field {
+        width: 50%;
+        margin: auto;
+    }
+
+    #form-field input,
+    #form-field button {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 50px;
+        line-height: 100%;
+        font-size: 15px;
+    }
+
+    #form-field button {
+        box-shadow: 0 0 10px rgb(255, 221, 0);
+    }
+
+    #shampoo {
+        width: 80%;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    /*                                                                    MAP*/
+    #lp-map {
+        height: 400px;
+        padding-left: 20px;
+    }
+
+    .map-upper {
+        height: 55%;
+        width: 30%;
+        padding: 0px 0px 0px 15px;
+        top: 2%;
+        left: 65%;
+        box-shadow: 0 10px 20px rgb(0, 0, 0);
+        font-size: 12px;
+
+    }
+
+    .map-upper h1 {
+        font-size: 15px;
+    }
+
+    /*                                                     FOOTER*/
+    #footer {
+        height: 50px;
+    }
+
+}

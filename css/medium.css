@@ -1,4 +1,4 @@
-@media screen and (max-width: 1050px) {
+@media (max-width: 1050px) {
 
 
     .middle-services > h1 {
@@ -11,20 +11,11 @@
         margin-left: 25%;
     }
 
-    upper-wrapper {
-        display: inline;
-        
-        min-height: 600px;
-    }
-
     /*                                                        СЛАЙДЕР*/
     .content-slider {
         margin-left: 50px;
     }
 
-    #slider {
-        height: 100vh;
-    }
 
     .rslides {
         height: 400px;

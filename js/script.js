@@ -33,8 +33,8 @@ $(function () {
         speed: 800,
         pager: true,
         nav: true,
-        prevText: "<i class='fas fa-chevron-left fa-3x'></i>",
-        nextText: "<i class='fas fa-chevron-right fa-3x'></i>",
+        prevText: "<i class='fas fa-chevron-left fa-2x'></i>",
+        nextText: "<i class='fas fa-chevron-right fa-2x'></i>",
         manualControls: ".custom",
 
     });

@@ -1,8 +1,8 @@
-@media screen and (max-width: 780px) {
+@media (max-width: 780px) {
 
     #services,
     #slider {
-        min-height: 130vh;
+        
         height: auto;
     }
 
